@@ -1,19 +1,11 @@
-# AspNetCore Template
+# SPATemplate
 
 ## Get started
 
-The SPA is located under the `app` folder.
++ Code & tested finished back-end for project 
 
-Then to start the dev server, run this command:
+## Process
 
-`npm run dev`
-
-Fire up the AspNetCore app from Visual Studio and browse to `http://locahost:5000`
-
-## Evaluation Process
-
-### For the candidate
-
-1. Clone the repo and publish it to your Github account.
-2. Make the changes
-3. Notify the admin the URL to your repo once finished
+1. Make the changes
+2. Publish code to Github account.
+3. URL: https://github.com/nqb19772010/SPATemplate.git
