@@ -10,10 +10,14 @@
 
     <!-- Set this to true if you enable server-side prerendering -->
     <BuildServerSideRenderer>false</BuildServerSideRenderer>
+    <ApplicationIcon />
+    <OutputType>WinExe</OutputType>
+    <StartupObject />
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Cors" Version="2.1.1" />
     <PackageReference Include="Microsoft.AspNetCore.SpaServices.Extensions" Version="2.1.1" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.1" />
   </ItemGroup>
@@ -29,16 +33,12 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DataAccessLayer\DataAccessLayer.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Reference Include="AutoMapper">
       <HintPath>..\lib\AutoMapper.dll</HintPath>
       <Private>true</Private>
     </Reference>
     <Reference Include="DataAccessLayer">
-      <HintPath>..\DataAccessLayer\bin\Debug\netcoreapp2.2\DataAccessLayer.dll</HintPath>
+      <HintPath>..\DataAccessLayer\bin\Debug\netcoreapp2.1\DataAccessLayer.dll</HintPath>
     </Reference>
   </ItemGroup>
 
