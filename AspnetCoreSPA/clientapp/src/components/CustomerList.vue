@@ -94,7 +94,6 @@ export default {
   }
 }
 
-
 </script>
 <style>
 body {
@@ -107,9 +106,12 @@ table {
   border: 2px solid #CC092F;
   border-radius: 3px;
   background-color: #fff;
-  margin-left: 250px;
+  margin-left: 280px;
   margin-top: 10px;
 }
+
+tr:nth-child(even) {background: rgb(121, 120, 120)}
+tr:nth-child(odd) {background: #FFF}
 
 th {
   background-color: #CC092F;

@@ -114,7 +114,7 @@
 
 .searchData {  
   background-color: #fff;
-  margin-left: -150px;
+  margin-left: -10px;
   margin-top: 2px;
 }
 
